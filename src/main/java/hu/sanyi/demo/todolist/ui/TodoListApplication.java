@@ -32,7 +32,7 @@ public class TodoListApplication extends Application {
 	
     private void initComponents(Stage primaryStage) {
     	this.primaryStage = primaryStage;
-		primaryStage.setTitle("OAuthEngine demo");
+		primaryStage.setTitle("TodoList Manager");
 		primaryStage.setOnHiding(new EventHandler<WindowEvent>() {
 		      public void handle(WindowEvent event) {
 		    	  mainWindowClosed();
