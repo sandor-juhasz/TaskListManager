@@ -1,0 +1,17 @@
+apply from: "javafx.plugin"
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.httpcomponents:httpclient:4.3.3', 
+	        'log4j:log4j:1.2.17',
+			'com.google.code.gson:gson:2.2.4'
+}
+
+javafx {   
+    appID 'TodoList'
+    appName 'Todo List Manager'
+    mainClass '"hu.sanyi.demo.todolist.ui.TodoListApplication'
+}
